@@ -1,0 +1,19 @@
+{
+  "name": "red-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "compile:win32": "electron-packager . red-node --overwrite --prune=true --platform=win32 --arch=x64 --icon=./icon.ico --executableName=cncNode --dir=./ --out=./distributions --ignore=./distributions && node compile.js"
+  },
+  "author": "José Rosendo Soto Reza",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^25.0.1",
+    "electron-packager": "^17.1.1",
+    "express": "^4.18.2",
+    "node-red": "^3.0.2",
+    "node-red-contrib-mcu-node": "~1.0.5"
+  }
+}
