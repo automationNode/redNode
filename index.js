@@ -1,5 +1,6 @@
 console.log("-->Starting Software");
 
+let loading = require("./loading.js");
 let nodeRed = require("node-red");
 let express = require("express");
 let window = require("./window");
@@ -41,6 +42,8 @@ async function start() {
   app.use(settings.httpNodeRoot, nodeRed.httpNode);
   server.listen(1880);
   nodeRed.start();
-  await utils.wait(5000);
+  loading.start();
+  await utils.wait(8000);
+  loading.end();
   window.start(1880, 1000, 800, true);
 }

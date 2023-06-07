@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Automation Node</title>
+    <meta name="theme-color" content="#2196f3" />
+    <style>
+      #logo {
+        width: 30%;
+        margin: 2%;
+        position: relative;
+        animation-name: animationLogo;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+      }
+
+      .hover:hover {
+        color: white;
+        background-color: rgb(3, 133, 255);
+      }
+
+      @keyframes animationLogo {
+        0% {
+          transform: rotate(0deg);
+        }
+        33% {
+          transform: rotate(120deg);
+        }
+        66% {
+          transform: rotate(240deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+
+  <body style="text-align: center; text-align: center; align-items: center">
+    <div
+      style="
+        border-radius: 35px;
+        background-color: white;
+        color: black;
+        width: 60%;
+        height: 60%;
+      "
+    >
+      <br />
+      <br />
+      <img id="logo" src="./icon.png" />
+      <br />
+      <h1>Automation Node</h1>
+      <br />
+    </div>
+  </body>
+</html>

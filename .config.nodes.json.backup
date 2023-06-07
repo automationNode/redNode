@@ -415,5 +415,90 @@
                 "file": "C:\\Users\\joses\\Desktop\\proyectos\\nodeRedDesktop\\node_modules\\@node-red\\nodes\\core\\storage\\23-watch.js"
             }
         }
+    },
+    "node-red-contrib-mcu-node": {
+        "name": "node-red-contrib-mcu-node",
+        "version": "1.0.5",
+        "local": false,
+        "user": false,
+        "nodes": {
+            "start": {
+                "name": "start",
+                "types": [
+                    "start"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red-contrib-mcu-node",
+                "file": "C:\\Users\\joses\\Desktop\\proyectos\\nodeRedDesktop\\node_modules\\node-red-contrib-mcu-node\\start.js"
+            },
+            "wait": {
+                "name": "wait",
+                "types": [
+                    "wait"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red-contrib-mcu-node",
+                "file": "C:\\Users\\joses\\Desktop\\proyectos\\nodeRedDesktop\\node_modules\\node-red-contrib-mcu-node\\wait.js"
+            },
+            "pinMode": {
+                "name": "pinMode",
+                "types": [
+                    "pinMode"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red-contrib-mcu-node",
+                "file": "C:\\Users\\joses\\Desktop\\proyectos\\nodeRedDesktop\\node_modules\\node-red-contrib-mcu-node\\pinMode.js"
+            },
+            "digitalWrite": {
+                "name": "digitalWrite",
+                "types": [
+                    "digitalWrite"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red-contrib-mcu-node",
+                "file": "C:\\Users\\joses\\Desktop\\proyectos\\nodeRedDesktop\\node_modules\\node-red-contrib-mcu-node\\digitalWrite.js"
+            },
+            "digitalRead": {
+                "name": "digitalRead",
+                "types": [
+                    "digitalRead"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red-contrib-mcu-node",
+                "file": "C:\\Users\\joses\\Desktop\\proyectos\\nodeRedDesktop\\node_modules\\node-red-contrib-mcu-node\\digitalRead.js"
+            },
+            "analogWrite": {
+                "name": "analogWrite",
+                "types": [
+                    "analogWrite"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red-contrib-mcu-node",
+                "file": "C:\\Users\\joses\\Desktop\\proyectos\\nodeRedDesktop\\node_modules\\node-red-contrib-mcu-node\\analogWrite.js"
+            },
+            "analogRead": {
+                "name": "analogRead",
+                "types": [
+                    "analogRead"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red-contrib-mcu-node",
+                "file": "C:\\Users\\joses\\Desktop\\proyectos\\nodeRedDesktop\\node_modules\\node-red-contrib-mcu-node\\analogRead.js"
+            }
+        }
     }
 }
