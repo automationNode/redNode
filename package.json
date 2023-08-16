@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "electron .",
-    "compile:win32": "electron-packager . red-node --overwrite --prune=true --platform=win32 --arch=x64 --icon=./icon.ico --executableName=redNode --dir=./ --out=./distributions --ignore=./distributions && node compile.js"
+    "compile:win32": "electron-packager . node-red --overwrite --prune=true --platform=win32 --arch=x64 --icon=./icon.ico --executableName=node-red --dir=./ --out=./distributions --ignore=./distributions && node compile.js"
   },
   "author": "José Rosendo Soto Reza",
   "license": "ISC",
